@@ -23,13 +23,14 @@ body {
 h1 a:hover, h2 a:hover, h3 a:hover{
     text-decoration: none;
 }
-
+ /*--Changing the style of the headings--*/
 h1 a, h2 a, h3 a{
     text-shadow: 1px 1px #00ffff;
     font-weight: 200;
     font-family: Dosis;
 }
 
+/*--This styles the heading to mimic a logo--*/
 h1{
     display: inline;
     background-color: #006ce3;
@@ -38,24 +39,28 @@ h1{
     border-color: #b1ceff;
     border-width: 3px;
     border-radius: 100%;
+    box-shadow: 6px 4px 2px #00ff02;
     position: relative;
     right:-30px;
 }
 
+/*--Sets the font type for all paragraphs--*/
 p, figcaption{
     font-family: Arial, verdana, sans-serif;
     font-size: 14px;
     font-style: normal;
 }
+/*--Sets font styles for all quotes--*/
 q{
     font-family: Times, serif;
     font-size: 16px;
     line-height: 20px;
 }
+/*--Sets the anchor decoration to none*/
 a{
     text-decoration: none;
 }
-
+/*--Styles the navigation--*/
 #Nav li {
     display: inline-block;
     margin-right: 10px;
@@ -65,6 +70,7 @@ a{
     padding: 10px 15px;
 }
 
+/*--Styles the links at the bottom of the page--*/
 #footer li{
     display: inline-block;
     margin-right: 10px;
@@ -73,6 +79,7 @@ a{
     padding: 10px 15px;
 }
 
+/*--Takes away the circles to the list items--*/
 ul, ol {
     list-style-type: none;
 }
