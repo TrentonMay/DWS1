@@ -84,6 +84,10 @@ ul, ol {
     list-style-type: none;
 }
 
+#gallery a:hover {
+    opacity: .90;
+}
+
 a:link{
     color: #008080;
 }
