@@ -1,7 +1,42 @@
 /*---Styling Sheet---*/
 
 body {
-    margin-right: auto;
+    margin: 30px auto;
     width: 70%;
-    margin-left: auto;
+}
+p{
+    font-family: Arial, verdana, sans-serif;
+    font-size: 14px;
+}
+q{
+    font-family: Times, serif;
+    font-size: 16px;
+}
+a{
+    text-decoration: none;
+}
+
+#nav {
+    display: inline;
+    margin-right: 10px;
+    position: fixed;
+    top:30px;
+    right:20px;
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+a:link{
+    color: #008080;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:visited{
+    color: #000000;
+}
+a:active{
+    color: #E0260F;
 }
