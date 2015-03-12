@@ -1,9 +1,15 @@
 /*---Styling Sheet---*/
 
+
+/*--Styling the body--*/
 body {
     margin: 30px auto;
     width: 70%;
+    background-color: #000000;
+    color: #ffffff;
 }
+
+/*--Google Font from web--*/
 @font-face {
     font-family: 'Dosis';
     font-style: normal;
@@ -13,23 +19,38 @@ body {
     unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
 }
 
+/*--Making sure certain links don't use the anchor styles--*/
 h1 a:hover, h2 a:hover, h3 a:hover{
     text-decoration: none;
 }
 
-h1 a{
-    text-shadow: 2px 2px #00ffff;
+h1 a, h2 a, h3 a{
+    text-shadow: 1px 1px #00ffff;
     font-weight: 200;
     font-family: Dosis;
+}
+
+h1{
+    display: inline;
+    background-color: #006ce3;
+    width: 300px;
+    border-style: solid;
+    border-color: #b1ceff;
+    border-width: 3px;
+    border-radius: 10%;
+    position: relative;
+    right:-30px;
 }
 
 p, figcaption{
     font-family: Arial, verdana, sans-serif;
     font-size: 14px;
+    font-style: normal;
 }
 q{
     font-family: Times, serif;
     font-size: 16px;
+    line-height: 20px;
 }
 a{
     text-decoration: none;
@@ -40,7 +61,7 @@ a{
     margin-right: 10px;
     position: relative;
     top:-50px;
-    right:-600px;
+    right:-550px;
     padding: 10px 15px;
 }
 
