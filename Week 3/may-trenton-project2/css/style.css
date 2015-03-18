@@ -1,0 +1,102 @@
+/*---Styling Sheet---*/
+
+
+/*--Styling the body--*/
+body {
+    margin: 30px auto;
+    width: 70%;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+/*--Google Font from web--*/
+@font-face {
+    font-family: 'Dosis';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Dosis Regular'), local('Dosis-Regular'),
+    url(http://fonts.gstatic.com/s/dosis/v4/3isE9muMMOq1K7TQ7HkKvIDGDUGfDkXyfkzVDelzfFk.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/*--Making sure certain links don't use the anchor styles--*/
+h1 a:hover, h2 a:hover, h3 a:hover{
+    text-decoration: none;
+}
+ /*--Changing the style of the headings--*/
+h1 a, h2 a, h3 a{
+    text-shadow: 1px 1px #00ffff;
+    font-weight: 200;
+    font-family: Dosis;
+}
+
+/*--This styles the heading to mimic a logo--*/
+h1{
+    display: inline;
+    background-color: #006ce3;
+    padding: 13px;
+    border-style: solid;
+    border-color: #b1ceff;
+    border-width: 3px;
+    border-radius: 100%;
+    box-shadow: 6px 4px 2px #00ff02;
+    position: relative;
+    right:-30px;
+}
+
+/*--Sets the font type for all paragraphs--*/
+p, figcaption{
+    font-family: Arial, verdana, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+}
+/*--Sets font styles for all quotes--*/
+q{
+    font-family: Times, serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+/*--Sets the anchor decoration to none*/
+a{
+    text-decoration: none;
+}
+/*--Styles the navigation--*/
+#Nav li {
+    display: inline-block;
+    margin-right: 10px;
+    position: relative;
+    top:-50px;
+    right:-500px;
+    padding: 10px 15px;
+}
+
+/*--Styles the links at the bottom of the page--*/
+#footer li{
+    display: inline-block;
+    margin-right: 10px;
+    position: relative;
+    right: -300px;
+    padding: 10px 15px;
+}
+
+/*--Takes away the circles to the list items--*/
+ul, ol {
+    list-style-type: none;
+}
+
+#gallery a:hover {
+    opacity: .90;
+}
+
+a:link{
+    color: #008080;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:visited{
+    color: #ffffff;
+}
+a:active{
+    color: #E0260F;
+}
