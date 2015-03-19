@@ -2,10 +2,12 @@
 
 
 /*--Styling the body--*/
+
+
 body {
     margin: 30px auto;
     width: 70%;
-    background-color: #000000;
+    background-color: gray;
     color: #ffffff;
 }
 
@@ -51,10 +53,15 @@ p, figcaption{
     font-style: normal;
 }
 /*--Sets font styles for all quotes--*/
-q{
+blockquote{
     font-family: Times, serif;
     font-size: 16px;
     line-height: 20px;
+    width: 25%;
+    margin: 15px;
+    border-style: solid;
+    border-color: #ffffff transparent;
+    float:right;
 }
 /*--Sets the anchor decoration to none*/
 a{
@@ -73,6 +80,9 @@ a{
 /*--Styles the links at the bottom of the page--*/
 #footer li{
     display: inline-block;
+    width: 100px;
+    background-color: #00ff02;
+    background-position: center top;
     margin-right: 10px;
     position: relative;
     right: -300px;
@@ -82,6 +92,14 @@ a{
 /*--Takes away the circles to the list items--*/
 ul, ol {
     list-style-type: none;
+}
+
+#gallery img{
+    display: inline-block;
+    float: left;
+    margin: 20px 30px;
+    width: 25%;
+    height: 25%;
 }
 
 #gallery a:hover {
