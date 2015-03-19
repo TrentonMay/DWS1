@@ -66,9 +66,7 @@ blockquote{
 }
 
 h3 a{
-    display: inline-block;
-    position: fixed;
-
+    display: inline;
 }
 /*--Sets the anchor decoration to none*/
 a{
