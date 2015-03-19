@@ -58,10 +58,17 @@ blockquote{
     font-size: 16px;
     line-height: 20px;
     width: 25%;
-    margin: 15px;
+    margin: 30px 15px;
     border-style: solid;
     border-color: #ffffff transparent;
     float:right;
+    clear: left;
+}
+
+h3 a{
+    display: inline-block;
+    position: fixed;
+
 }
 /*--Sets the anchor decoration to none*/
 a{
@@ -95,12 +102,13 @@ ul, ol {
 }
 
 #gallery img{
-    display: inline-block;
+    /*display: inline-block;
     float: left;
-    margin: 20px 30px;
+    margin: 20px 30px;*/
     width: 25%;
     height: 25%;
 }
+
 
 #gallery a:hover {
     opacity: .90;
