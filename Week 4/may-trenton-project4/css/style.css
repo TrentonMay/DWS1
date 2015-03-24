@@ -194,3 +194,31 @@ a:visited{
 a:active{
     color: #E0260F;
 }
+
+#prices{
+    background-color: #ffffff;
+    width: 60%;
+    height: 100%;
+    float: left;
+    color: #000000;
+}
+
+#prices th{
+    margin: 1%;
+    padding: .5%;
+    width: .2%;
+
+}
+/*#prices td{
+    border-style: solid;
+    border-color: #000000 transparent transparent transparent;
+}*/
+#prices table{
+    border-style: solid;
+    border-color: #000000;
+}
+#prices tr:hover{
+    background-color: #008080;
+    border-style: solid;
+    border-color: #000000;
+}
