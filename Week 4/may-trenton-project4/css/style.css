@@ -201,19 +201,25 @@ a:active{
     height: 100%;
     float: left;
 }
-
+/*--Allows for a bottom border to go across every row and column*/
 #prices table{
     background-color: #ffffff;
     width: 100%;
     height: 100%;
     float: left;
     color: #000000;
+    border-collapse: collapse;
     border-style: solid;
     border-color: #000000;
     color: #000000
 }
+
+/*--Makes every other row a different color--*/
 #prices .zebra{
     background-color: aquamarine;
+}
+#prices, tr, th{
+    border-style: solid;
 }
 
 #prices th{
@@ -227,6 +233,7 @@ a:active{
     border-style: solid;
     border-color: transparent transparent #000000 transparent;
 }
+/*--When a row or column is hovered over the color will change--*/
 #prices tr:hover{
     background-color: #af4454;
 }

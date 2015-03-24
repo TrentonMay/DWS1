@@ -27,7 +27,7 @@
       <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.625" vertical-offset="765" max-vertical-offset="1905">
+            <state vertical-scroll-proportion="-16.25" vertical-offset="750" max-vertical-offset="1905">
               <caret line="76" column="32" selection-start-line="76" selection-start-column="32" selection-end-line="76" selection-end-column="32" />
               <folding />
             </state>
@@ -37,8 +37,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.50672644" vertical-offset="2886" max-vertical-offset="3570">
-              <caret line="215" column="33" selection-start-line="215" selection-start-column="33" selection-end-line="215" selection-end-column="33" />
+            <state vertical-scroll-proportion="0.3721973" vertical-offset="2796" max-vertical-offset="3675">
+              <caret line="203" column="39" selection-start-line="203" selection-start-column="39" selection-end-line="203" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -299,7 +299,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.625" vertical-offset="765" max-vertical-offset="1905">
+        <state vertical-scroll-proportion="-16.25" vertical-offset="750" max-vertical-offset="1905">
           <caret line="76" column="32" selection-start-line="76" selection-start-column="32" selection-end-line="76" selection-end-column="32" />
           <folding />
         </state>
@@ -307,8 +307,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.50672644" vertical-offset="2886" max-vertical-offset="3570">
-          <caret line="215" column="33" selection-start-line="215" selection-start-column="33" selection-end-line="215" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.3721973" vertical-offset="2796" max-vertical-offset="3675">
+          <caret line="203" column="39" selection-start-line="203" selection-start-column="39" selection-end-line="203" selection-end-column="39" />
           <folding />
         </state>
       </provider>
