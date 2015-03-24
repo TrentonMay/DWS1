@@ -195,30 +195,38 @@ a:active{
     color: #E0260F;
 }
 
+/*--Styling the Table--*/
 #prices{
-    background-color: #ffffff;
     width: 60%;
     height: 100%;
     float: left;
+}
+
+#prices table{
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+    float: left;
     color: #000000;
+    border-style: solid;
+    border-color: #000000;
+    color: #000000
+}
+#prices .zebra{
+    background-color: aquamarine;
 }
 
 #prices th{
     margin: 1%;
     padding: .5%;
     width: .2%;
-
+    text-align: left;
+    font-family: Arial, verdana, sans-serif;
 }
-/*#prices td{
+#prices th{
     border-style: solid;
-    border-color: #000000 transparent transparent transparent;
-}*/
-#prices table{
-    border-style: solid;
-    border-color: #000000;
+    border-color: transparent transparent #000000 transparent;
 }
 #prices tr:hover{
-    background-color: #008080;
-    border-style: solid;
-    border-color: #000000;
+    background-color: #af4454;
 }
