@@ -240,11 +240,19 @@ a:active{
 }
 
 #form{
-    width: 100%;
+    width: 30%;
     height: 300px;
     /*background-color: azure;*/
     float: right;
+    margin: 3%;
 }
 #form input, textarea{
-    margin: 1%;
+    margin: 5% 2%;
 }
+
+#form textarea{
+    margin-top: 10%;
+}
+
+
+

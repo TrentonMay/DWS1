@@ -86,19 +86,24 @@
 
             <div id="form">
                 <form>
-                    <legend>Did you enjoy Cyclone RP?</legend>
-                    <label for="username">Username:</label>
-                    <input type="text" id="username" maxlength="30"/>
+                    <fieldset>
+                        <legend>Did you enjoy Cyclone RP?</legend>
+                        <label for="username">Username:</label>
+                        <input type="text" id="username" required="required" maxlength="30"/>
 
-                    <label for="email">Email:</label>
-                    <input type="text" id="email" maxlength="30"/>
+                        <label for="email">Email:</label>
+                        <input type="text" id="email" required="required" maxlength="30"/>
 
-                    <input type="radio" value="Yes! I Love Cyclone">
-                    Yes! I Love Cyclone <br>
-                    <input type="radio" value="No! I Hate Cyclone">
-                    No! I Hate Cyclone <br>
-                    Why or Why Not <br>
-                    <textarea name="comments" maxlength="200"></textarea>
+                        <label for="yes">Yes! I Love Cyclone</label>
+                        <input type="radio" id="yes" required="required" value="Yes! I Love Cyclone"/>
+
+                        <label for="no">No! I Hate Cyclone</label>
+                        <input type="radio" id="no" required="required" value="No! I Hate Cyclone"/>
+
+                        <!--<label for="comments">Why Or Why Not?</label>-->
+                        <textarea name="comments" id="comments" maxlength="200"></textarea>
+                        <input type="submit" value="Submit">
+                    </fieldset>
                 </form>
             </div>
 
