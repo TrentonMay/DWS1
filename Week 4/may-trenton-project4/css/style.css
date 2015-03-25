@@ -218,8 +218,9 @@ a:active{
 #prices .zebra{
     background-color: aquamarine;
 }
-#prices, tr, th{
+#prices tr{
     border-style: solid;
+    border-right-color: #000000;
 }
 
 #prices th{
@@ -236,4 +237,14 @@ a:active{
 /*--When a row or column is hovered over the color will change--*/
 #prices tr:hover{
     background-color: #af4454;
+}
+
+#form{
+    width: 100%;
+    height: 300px;
+    /*background-color: azure;*/
+    float: right;
+}
+#form input, textarea{
+    margin: 1%;
 }
