@@ -256,6 +256,20 @@ a:active{
     height: 100px;
     width: 175px;
 }
+#form label{
+    float: left;
+    margin: 3%;
+}
+
+#form input:focus{
+    border-style: solid;
+    border-color: #00ff02;
+}
+
+#form input:hover, textarea:hover{
+    border-style: solid;
+    border-color: #00ff02;
+}
 
 
 
