@@ -256,10 +256,10 @@ a:active{
     height: 100px;
     width: 175px;
 }
-#form label{
+/*#form label{
     float: left;
     margin: 3%;
-}
+}*/
 
 #form input:focus{
     border-style: solid;
