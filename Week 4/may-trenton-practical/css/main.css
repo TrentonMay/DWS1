@@ -1,0 +1,147 @@
+
+body {
+	margin: 0 auto;
+	padding: 0;
+	font: .75em/1.5em Helvetica, Arial, sans-serif;
+	color: #000000;
+	width: 960px;
+	background: #797267;
+}
+header{
+	background-image: url("../images/header-bg.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 960px;
+	height: 210px;
+}
+header h1{
+	float: left;
+	margin: 64px;
+	background-image: url("../images/logo.gif");
+	background-repeat: no-repeat;
+	height: 71px;
+	width: 317px;
+}
+
+header h1 a{
+	width: 317px;
+	height: 71px;
+	color: transparent;
+}
+nav{
+	width: 277px;
+	margin: 84px 64px;
+	float: right;
+}
+
+nav li{
+	display: inline-block;
+	padding: 1% 1.5%;
+	font-size: 1.1em;
+}
+nav a{
+	text-decoration: none;
+}
+nav a:link{
+	color: #423b2e;
+}
+nav a:hover{
+	color: crimson;
+}
+nav a:active{
+	color: blue;
+}
+nav a:visited{
+	color: #bf3102;
+}
+#banner{
+	display: inline-block;
+	width: 100%;
+	height: 170px;
+	background-image: url("../images/banner.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#main-content{
+	width: 960px;
+	height: 700px;
+	background-image: url("../images/main-content-bg.jpg");
+	margin:0 auto;
+}
+
+#main-content #column1of2{
+	height:400px;
+	float: left;
+	width: 260px;
+	margin-left: 64px;
+	background-image: url("../images/page-flip.png");
+	background-repeat: no-repeat;
+	background-position: left bottom;
+}
+#main-content #column1of2 h2{
+	font-size: 1.5em;
+	color: #423b2e;
+	margin: 0 25px;
+	width: 100%;
+	padding: 10px;
+	border-style: solid;
+	border-color: transparent transparent grey transparent;
+	border-width: 2px;
+}
+#main-content #column1of2 p{
+	color: gray;
+	width: 100%;
+	margin: 0 25px;
+	padding: 10px;
+	float:left;
+	border-style: solid;
+	border-width: 2px;
+	border-color: transparent transparent grey transparent;
+}
+#main-content #column1of2 p img{
+	float: left;
+	margin-right: 15%;
+}
+
+#main-content #column2of2{
+	float: right;
+	height:350px;
+	width: 450px;
+	margin-left: 44px;
+	margin-right: 100px;
+	background-image: url("../images/page-flip.png");
+	background-repeat: no-repeat;
+	background-position: left bottom;
+}
+#main-content #column2of2 h2{
+	font-size: 1.5em;
+	color: #423b2e;
+	margin: 0 25px;
+	padding: 10px;
+	border-style: solid;
+	border-color: transparent transparent grey transparent;
+	border-width: 2px;
+}
+ #main-content #column2of2 p{
+	 color: grey;
+	 width: 100%;
+	 margin: 0 25px;
+	 padding: 10px;
+	 float:left;
+ }
+
+ footer{
+	 display: inline-block;
+	 width: 100%;
+	 height: 100%;
+	 background-image: url("../images/footer-bg.jpg");
+	 background-repeat: no-repeat;
+ }
+
+ footer p{
+	 width: 25%;
+	 height: 100%;
+	 margin: 92px auto;
+ }
+
+
